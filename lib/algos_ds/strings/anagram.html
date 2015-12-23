@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Anagram check</title>
+</head>
+<body>
+  <h1>Check if a two strings are anagrams</h1>
+  <p>Anagram is when two strings have the same number and types of chars. e.g. <i>abc</i> and <i>bca</i> are anagrams.</p>
+  <p>There are many ways to do this</p>
+  <p>Lots of people have presented solutions, but I just want to talk about the algorithmic complexity of some of the common approaches:</p>
+<ol>
+<li>A simple-minded "sort the characters" approach is likely to be O(N log N) ... but if you use radix sorting, that reduces to O(N) with O(M) space, where M is the number of distinct characters in the alphabet. (That is 26 in English ... but in theory we ought to consider multi-lingual anagrams.)
+  </li>
+<li>The "count the characters" using an array of counts is also O(N) ... and faster than radix sort because you don't need to reconstruct the sorted string.
+  </li>
+  <li>
+A "count the characters" using a dictionary, hashmap, treemap, or equivalent will be slower that the array approach, unless the alphabet is huge.
+  </li>
+  <li>
+The elegant "product-of-primes" approach is unfortunately O(N^2) in the worst case This is because for long-enough words or phrases, the product of the primes won't fit into a long. That means that you'd need to use BigInteger, and N times multiplying a BigInteger by a small constant is O(N^2).
+
+For a hypothetical large alphabet, the scaling factor is going to be large. The space usage is (I think) O(N*M).
+</li>
+<li>A hashcode based approach is usually O(N) if the words are not anagrams, but if the hashcodes are equal, then you still need to do a proper anagram test. So this is not a complete solution.
+  </li>
+</body>
+</html>
