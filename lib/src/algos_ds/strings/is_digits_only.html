@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Check if String only contains digits</title>
+</head>
+<body>
+  <h1>Check if String only contains digits</h1>
+  <p>Approaches</p>
+  <ul>
+    <li>
+      Compare the digit with ASCII value of the char.
+      digit >= '0' && digit <= '9'
+    </li>
+    <li>
+      Use regex. \D represents all non-digit chars.
+      <br>regex = /\D/g
+    </li>
+    <li>
+      Make a hashmap of all digits with digit as key.
+      Take char one by one and see if its in hashmap. If not in map then false.
+    </li>
+  </ul>
+</body>
+</html>

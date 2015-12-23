@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Reverse a String using iteration and recursion.</title>
+</head>
+<body>
+  <h1>Reverse a String using iteration and recursion.</h1>
+  <p>This is only for pure reversal NOT words reversal.</p>
+  <p><b>Note:</b> Cannot be done in-place in JavaScript.</p>
+  <ol>
+    <li>
+      Iterative:
+      <br/>Create char array.
+      <br/>Loop over array swapping the element from start index with end index.
+      <br/>Break look when start index >= end index.
+    </li>
+    <li>
+      Recursive: <br>
+      <br/>Base case: when start index >= end index.
+      <br/>Create char array.
+      <br/>Recursive method takes three parameters, arr, start index and end index.
+      <br/>On first call pass array, 0, arr.length - 1
+      <br/>Call the same method with arr, ++start, --end
+    </li>
+  </ol>
+</body>
+</html>

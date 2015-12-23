@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Find the first non-repeated character in a String</title>
+</head>
+
+<body>
+  <h1>Find the first non-repeated character in a String</h1>
+  <h3>Approaches</h3>
+  <p>There can be multiple approaches.</p>
+  <ol>
+    <li>
+      Create a hash for each char in the string where key is char and value is a boolean or number.
+      <br/> Iterate over the original string and use the char in it as key in hash, to find the first non-repeating char.
+      <br/> This method is very performant. It makes only <b>1</b> <i>O(n)</i> pass over the string followed by <i>O(n/2)</i> pass over hashmap in worst case.
+      <br/> Worst case of this method is when all the chars are duplicates except the last one.
+    </li>
+  </ol>
+</body>
+
+</html>
