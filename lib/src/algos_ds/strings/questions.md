@@ -10,19 +10,19 @@
 
 5. How to check if a String contains only digits? *
 
-6. How to find duplicate characters in a String?
+6. How to find duplicate characters in a String? *
 
-7. How to count number of vowels and consonants in a String?
+7. How to count number of vowels and consonants in a String? *
 
-8. How to count occurrence of a given character in String?
+8. How to count occurrence of a given character in String? *
 
-9. How to convert numeric String to int?
+9. How to convert numeric String to int? *
 
-10. How to replace each given character to other e.g. blank with %20?
+10. How to replace each given character to other e.g. blank with %20? *
 
-11. How to find all permutations of String?
+11. How to find all permutations of String? #
 
-12. How to reverse words in a sentence without using library method?
+12. How to reverse words in a sentence without using library method? *
 
 13. How to check if String is Palindrome?
 
@@ -30,7 +30,7 @@
 
 15. How to check if a String is valid shuffle of two String?
 
-16. Write a program to check if a String contains another String e.g. indexOf(.?
+16. Write a program to check if a String contains another String? # KMP
 
 17. How  to return highest occurred character in a String?
 
