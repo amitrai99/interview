@@ -22,13 +22,13 @@
 
 11. How to find all permutations of String? #
 
-12. How to reverse words in a sentence without using library method? *
+12. How to reverse words in a sentence without using library method? * See reverse_string_iterative_recursive.js
 
-13. How to check if String is Palindrome?
+13. How to check if String is Palindrome? *
 
-14. How to remove duplicate characters from String?
+14. How to remove duplicate characters from String? *
 
-15. How to check if a String is valid shuffle of two String?
+15. How to check if a String is valid shuffle of two String? #Dynamic Programming
 
 16. Write a program to check if a String contains another String? # KMP
 

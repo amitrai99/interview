@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Remove duplicate characters from String</title>
+</head>
+<body>
+  <h1>Remove duplicate characters from String</h1>
+  <p>This can mean 2 things. We either remove all the duplicates or just keep one instance of each char</p>
+  <p><b>Approaches</b></p>
+  <ol>
+    <li>
+      Use a map to count occurence. Complexity: O(n)
+      <br/>In first loop create map
+      <br/>In second loop check each char as key in map. If count > 1, delete char.
+    </li>
+    <li>
+      Use an array 128 length for ascii chars. Complexity: O(n)
+      <br/> Iterate and Read ascii code of char at location i. Update the count of char in array at index i.
+      <br/> Iterate second time and delete all chars with count > 1
+    </li>
+  </ol>
+</body>
+</html>
