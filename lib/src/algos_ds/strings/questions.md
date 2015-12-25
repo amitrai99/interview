@@ -32,9 +32,9 @@
 
 16. Write a program to check if a String contains another String? # KMP
 
-17. How  to return highest occurred character in a String?
+17. How  to return highest frequency character in a String? *
 
-18. Write a program to remove a given characters from String?
+18. Write a program to remove a given characters from String? *
 
 19. Write a program to find longest palindrome in a string?
 
