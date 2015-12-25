@@ -20,7 +20,7 @@
 
 10. How to replace each given character to other e.g. blank with %20? *
 
-11. How to find all permutations of String? #
+11. How  to return highest frequency character in a String? *
 
 12. How to reverse words in a sentence without using library method? * See reverse_string_iterative_recursive.js
 
@@ -28,14 +28,16 @@
 
 14. How to remove duplicate characters from String? *
 
-15. How to check if a String is valid shuffle of two String? #Dynamic Programming
+15. Write a program to remove a given characters from String? *
 
-16. Write a program to check if a String contains another String? # KMP
+16. Given two strings, find if first string is a subsequence of second? * #note Subsequence NOT substring
 
-17. How  to return highest frequency character in a String? *
+17. Write a program to check for substring in a string? # KMP
 
-18. Write a program to remove a given characters from String? *
+18. How to check if a String is valid shuffle of two String? #Dynamic Programming
 
-19. Write a program to find longest palindrome in a string?
+19. Write a program to find longest palindrome in a string? #
 
-20. How to sort String on their length in Java?
+20. How to sort String on their length in Java? #
+
+21. How to find all permutations of String? #
