@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Merge sort</title>
+</head>
+<body>
+  <h1>Merge sort</h1>
+  <section class="info">
+
+    <h2>Algorithm</h2>
+    <ol>
+      <li>Given an array data</li>
+      <li>Recursive: split array into left and right halves. Call mergeSort on each till array length is 1..</li>
+      <li>call merge to merge the left and right arrays.</li>
+    </ol>
+    <h2>Properties and Complexity</h2>
+    <ol>
+      <li>Stable
+      <li>Θ(n) extra space for arrays (as shown)
+      <li>Θ(lg(n)) extra space for linked lists
+      <li>Θ(n·lg(n)) time
+      <li>Not adaptive
+      <li>Does not require random access to data
+    </ol>
+  </section>
+  <script src="merge_sort_performant.js"></script>
+
+</body>
+</html>
