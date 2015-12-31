@@ -32,7 +32,7 @@
 
 16. Given two strings, find if first string is a subsequence of second? * #note Subsequence NOT substring
 
-17. Write a program to check for substring in a string? # KMP
+17. Write a program to check for substring in a string? # KMP??
 
 18. How to check if a String is valid shuffle of two String? #Dynamic Programming
 
@@ -41,3 +41,5 @@
 20. How to sort String on their length in Java? #
 
 21. How to find all permutations of String? #
+
+22. Given two strings find the longest string that is a substring of both? #Rabin-Karp Algorithm
