@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Quick sort</title>
+</head>
+<body>
+  <h1>Quick sort</h1>
+  <section class="info">
+    <h2>Algorithm</h2>
+    Pick a "pivot point". Picking a good pivot point can greatly affect the running time.
+    <br/>* Break the list into two lists: those elements less than the pivot element, and those elements greater than the pivot element.
+    <br/>* Recursively sort each of the smaller lists.
+    <br/>* Make one big list: the 'smallers' list, the pivot points, and the 'biggers' list.
+    <br/>* Picking a random pivot point will not eliminate the O(n^{2}) worst-case time, but it will usually transform the worst case into a less frequently occuring permutation. In practice, the sorted list usually comes up more often than any other permutation, so this improvement is often used.
+
+    <h2>Properties and Complexity</h2>
+    Sorting algorithm
+    <br/>* Worst case performance	O(n^2)
+    <br/>* Best case performance	O(n log n) (simple partition)
+    <br/>* or O(n) (three-way partition and equal keys)
+    <br/>* Average case performance	O(n log n)
+    <br/>* Worst case space complexity	O(n) auxiliary (naive)
+    <br/>* O(log n) auxiliary (Sedgewick 1978)
+
+    <h2>When does the worst case of Quicksort occur?</h2>
+    The answer depends on strategy for choosing pivot.
+    <br/>In early versions of Quick Sort where leftmost (or rightmost) element is chosen as pivot, the worst occurs in following cases.
+
+    <br/>1) Array is already sorted in same order.
+    <br/>2) Array is already sorted in reverse order.
+    <br/>3) All elements are same (special case of case 1 and 2)
+
+    Since these cases are very common use cases, the problem was easily solved by choosing either a random index for the pivot, <br/>
+    choosing the middle index of the partition or (especially for longer partitions) choosing the median of the first, middle and last
+    element of the partition for the pivot. <br/>
+
+    With these modifications, the worst case of Quick sort has less chances to occur, but worst case can still occur if the<br/>
+    input array is such that the maximum (or minimum) element is always chosen as pivot.
+  </section>
+  <script src="quick_sort.js"></script>
+
+</body>
+</html>
