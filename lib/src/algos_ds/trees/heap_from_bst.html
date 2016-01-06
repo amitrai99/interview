@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Create heap from binary tree</title>
+</head>
+<body>
+  <h1>Create heap from a binary tree</h1>
+  <p>
+    This question is for testing your understanding of binray tree and another tree data structure called <strong>heap</strong>.
+    Important point to remember is that we need to convert a <em>Binary Tree</em> which is not necessarily a Binary Search Tree.
+  </p>
+  <h2>What is a heap?</h2>
+  <p>Heap is a type of tree based data sturcture with specific propery. There are two types of heap: <br/>
+    (1) <strong>Max heap</strong> the parent node is always greater than child nodes.<br/>
+    (2) <strong>Min heap</strong> the parent node is always smaller than child nodes.
+  </p>
+  <h3>To create a heap from a binary tree</h3>
+  <ol>
+    <li>
+      Traverse the binary tree and store the nodes in an array.
+    </li>
+    <li>
+      Sort the array.
+    </li>
+    <li>
+      Create a binary tree from the array. Every node has it's left at <em>2i + 1</em> and right at <em>2i + 2</em>.
+    </li>
+  </ol>
+</body>
+</html>
