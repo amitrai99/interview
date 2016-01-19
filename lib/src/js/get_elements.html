@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>How many ways to get to an element in JavaScript</title>
+</head>
+<body>
+  <h1>How many ways to get to an element in JavaScript</h1>
+  <p>There are 6 ways:</p>
+  <ol>
+    <li>document.getElementById('some-id')</li>
+    <li>document.getElementsByClassName('.some-class')</li>
+    <li>document.getElementsByTagName('p')</li>
+    <li>document. getElementsByTagNameNS("http://www.w3.org/1999/xhtml", "p")</li>
+    <li>document.getElementsByName('firstname')</li>
+    <li>document.querySelector('.my-class')</li>
+    <li>document.querySelectorAll('.my-class')</li>
+  </ol>
+
+  <div id="some-id" class="my-class">Some id some class</div>
+  <input name="firstName" value="firstName" id="firstName" />
+</body>
+</html>
