@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Web Worker Shared 2</title>
+</head>
+<body>
+  <h1>Popup</h1>
+  <p>From here we can access the shared web worker defined in main page</p>
+  <script>
+    function loadWorker() {
+      console.log('Now calling the shared worker thread from popup');
+console.log(parent);
+      //listen to the SharedWorker's message events
+      parent.worker.addEventListener('message', function(e) {
+        console.log('Received data from Shared worker : ' + e.data);
+      });
+
+      //send a message to the worker
+      parent.worker.port.postMessage( ['Message from', 'Popup'] );
+    }
+
+    window.onload = loadWorker;
+  </script>
+</body>
+</html>
