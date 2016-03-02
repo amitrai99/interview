@@ -1,0 +1,15 @@
+{
+  "name": "interview",
+  "version": "0.0.1",
+  "repository": "https://github.com/amitrai99/interview",
+  "scripts": {
+    "watch": "watch {lib/src/**.js}",
+    "lint": "jshint {lib/src/**.js}"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "browserify": "latest",
+    "mocha": "latest",
+    "watch": "latest"
+  }
+}
