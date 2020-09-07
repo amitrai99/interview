@@ -50,12 +50,12 @@ Given a function `(λx.((+ 1)x))` apply an argument 2 to it.
 ## Expressions
 The basic operation of lambda calculus is the application of expressions.
 
-* Usually we keep the constants near the operation but we can also swap the position of argument and constant and this is called `beta conversion`
-
 Normal:
 `((λx. + 1 x) 2)` => `(+ 1 2) => 3`
 
 ### Beta conversion
+
+Is a technique used to simplify the expressions by replacing variables with their real values during function application.
 
 `((λx. + x 1) 2)` => `(+ 2 1) => 3`
 
