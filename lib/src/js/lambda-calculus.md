@@ -21,7 +21,7 @@
 ### Parentheses
 * If there is no ambiguity then we can drop the parentheses else we keep them
 
-## Lambda Abstraction
+## Lambda Abstraction aka Function definition
 * `(λ<variable>.<expr>)` is called `lambda abstraction`, used for defining new function.
 ** It defines a lambda/function that takes a variable and applies an expression on it. Note that this uses `prefix notation`
 
@@ -66,7 +66,7 @@ The end result is the same in both the cases.
 * Variables are two types `bound` and `free`
 
 ### bound variable
-* `bound` variables are the ones that are defined as arguments of a lambda e.g. `(λx. E)` 
+* `bound` variables are the ones that are defined as arguments of a lambda e.g. `(λx. E)` here `x` is `bound`.
 * their scope is limited to the expression `E`
 
 ### unbound/free variables
@@ -75,4 +75,12 @@ The end result is the same in both the cases.
 
 Example:
 * `(λx. + x y)` here `x` is bound but `y` is free.
+
+```
+var y = 1; // free variable
+
+function(x) {// x is bound
+ x + y;
+}
+```
 
