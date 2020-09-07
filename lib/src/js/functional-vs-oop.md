@@ -57,7 +57,7 @@ const data = Object.freeze([1,2,3]);
 // Define pure functions to compute new data
 function addOne = (val) => val + 1;
 
-// Use JS APIs like `map` and pass functions as arguments to compute new data without mutating existing one
+// With JS APIs like `map` and `reduce`, pass functions as arguments to compute new data without mutating existing one
 const newData = data.map(addOne);
 ```
 
@@ -73,7 +73,9 @@ const sun = appendWeatherEmoji(':-)');
 
 console.log(rain('today')); // `:-( today`
 ```
-
+### Declarative
+* By defining functions we can ask for what to do rather than how to do.
+* Higher order functions can be thought of composed of lower order functions.
 
 ## References
 
