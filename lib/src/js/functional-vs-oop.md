@@ -25,7 +25,7 @@ function impure(a) {
 ```
 
 ### Immutable data
-* Functional code is considered stateless. Mutuating data breaks this promise.
+* Functional code is considered `stateless`. Mutuating data breaks this promise.
 * Never mutate existing data, instead use functions to create new instances from existing ones, thus keeping the `state` of your program `pure`.
 * Use JS functionality like `const`, `Object.freeze` to lock primitives, arrays and objects.
 
