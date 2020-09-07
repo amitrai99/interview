@@ -84,3 +84,7 @@ function(x) {// x is bound
 }
 ```
 
+## References
+
+* Pt 1 https://www.youtube.com/watch?v=v1IlyzxP6Sg
+* Pt 2 https://www.youtube.com/watch?v=Mg1pxUKeWCk
