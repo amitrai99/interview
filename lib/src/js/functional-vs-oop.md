@@ -3,7 +3,7 @@
 ## Functional concepts
 
 ### Pure functions
-* No side effects.
+* `No side effects`. This is the core concept of functional programming and everything else is derived from it.
 * Given an input, produce same output.
 * Do not mutate or use any external data that lives outside the function. e.g. mutating a global var or `window` object.
 
