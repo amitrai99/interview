@@ -63,7 +63,8 @@ const newData = data.map(addOne);
 
 ### Functions as return values
 * Functions can be returned as a return value.
-* Returned functions trap in-memory stack frames as 
+* Returned functions trap in-memory stack frames as closure
+* Higher order functions that wrap functions
 
 ```
 const appendWeatherEmoji = (fixed) => (dynamic) => fixed + dynamic; // same as `function(fixed) { return function(dynamic) { return fixed + dynamic; } }`
@@ -76,4 +77,5 @@ console.log(rain('today')); // `:-( today`
 
 ## References
 
+* https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming
 * https://probablydance.com/2016/02/27/functional-programming-is-not-popular-because-it-is-weird/
