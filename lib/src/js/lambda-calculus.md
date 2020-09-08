@@ -61,6 +61,13 @@ Is a technique used to simplify the expressions by replacing variables with thei
 
 The end result is the same in both the cases.
 
+* Are two ways we can do conversion 
+** `Pass by value` - immediately replace the value of variable and do the computation. 
+** `Pass by name` aka `delayed evaluation`, `outmost evaluation` etc. - only do value replacement but wait for all the expressions to be replaced before computing.
+**  We get the same result in either case
+
+See https://youtu.be/Mg1pxUKeWCk?t=129
+
 ## Variables
 
 * Variables are two types `bound` and `free`
