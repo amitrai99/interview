@@ -83,3 +83,4 @@ console.log(rain('today')); // `:-( today`
 
 * https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming
 * https://probablydance.com/2016/02/27/functional-programming-is-not-popular-because-it-is-weird/
+* Programming Languages: The functional paradigm - 1 - https://www.youtube.com/watch?v=Bct7q2I-NDA
