@@ -23,8 +23,8 @@
 
 ## Lambda Abstraction aka Function definition
 * `(λ<variable>.<expr>)` is called `lambda abstraction`, used for defining new function.
-** It defines a lambda/function that takes a variable and applies an expression on it. Note that this uses `prefix notation`
-** `<variable>` is said to be bound by the function `λ`
+  ** It defines a lambda/function that takes a variable and applies an expression on it. Note that this uses `prefix notation`
+  ** `<variable>` is said to be bound by the function `λ`
 
 Example: 
 
