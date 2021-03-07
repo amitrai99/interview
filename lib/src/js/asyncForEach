@@ -1,7 +1,7 @@
 // Write an async forEach function with and without promises.
 // array.forEach does not support async functions out of box just like native for loop doesn't
 
-// Problem start point. If you run this code it will print undefined.
+// Problem start point. If you run this code it will print undefined. How can we fix it so that it prints the number?
 function printMessage(i) {
   setTimeout((i) => { console.log(i) }, 1000);
 }
