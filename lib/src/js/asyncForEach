@@ -1,6 +1,17 @@
 // Write an async forEach function with and without promises.
 // array.forEach does not support async functions out of box just like native for loop doesn't
 
+// Problem start point. If you run this code it will print undefined.
+function printMessage(i) {
+  setTimeout((i) => { console.log(i) }, 1000);
+}
+
+const arr = [1, 2, 3, 4, 5, 6, 7];
+
+arr.forEach(async (i) => {
+  await printMessage(i);
+});
+
 // There are multiple ways to do this
 // 1. With promises see below. We can also Write an async forEach function with and without promises.
 
