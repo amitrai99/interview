@@ -1,0 +1,28 @@
+// array.forEach does not support async functions out of box just like native for loop doesn't
+// How can you create an asyncForEach that can support async.
+
+// setup array
+const nums = [1, 2, 3, 4, 5, 6];
+
+// an async function that needs to be called
+function callMe(i) {
+	return new Promise((resolve, reject) => {
+    // Here we want to resolve odd values and reject the even numbers
+  	if (i%2) {
+		  setTimeout(() => reject(i), 1000);
+    } else {
+      setTimeout(() => resolve(i), 1000);
+    }
+  });
+}
+
+// Our main asyncForEach function that wraps the native array.forEach
+function asyncForEach(arr, func) {
+    arr.forEach(
+      async (i) => {
+        await callMe(i); console.log(i);
+      }
+    );
+}
+
+asyncForEach(nums);
