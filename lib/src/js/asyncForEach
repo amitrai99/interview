@@ -1,7 +1,7 @@
 // How can we call async functions within forEach loop?
 // We can call any async function in forEach, problem is that there is no way to control the order of execution or track the requests.
 
-// Here are three examples of async functions in forEach loop.
+// Here are three examples of async functions in forEach loop. All have the same issue of no sequence control.
 // See: https://jsfiddle.net/nur4xodj/3/
 
 // Start point
